@@ -169,3 +169,33 @@ footer {
   justify-content: center;
   align-items: center;
 }
+/* Mobile */
+@media screen and (max-width: 1000px) {
+  .pad {
+  display: flex;
+      flex-direction: column;
+  }
+ .logo {
+   width: 100%;
+ }
+  . introduction {
+    background-size: content;
+    background-repeat: no-repeat;
+  }
+ .pad {
+   padding: 0;
+   text-size: 0.1em;
+ }
+}
+
+/* Desktop */
+    @media screen and (min-width: 1000px){
+    .pad {
+        display: flex;
+        flex-direction: row;
+    }
+    .introduction {
+      padding: 150px;
+    }
+
+}
