@@ -1,0 +1,171 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+/* Header */
+header {
+  background-color: white;
+  height: 170px;
+  /*    display: flex;*/
+  /* margin: 0, auto; */
+}
+.pad {
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 5vw;
+
+  /*    width: 100%;*/
+}
+.logo {
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 50px;
+  justify-content: center;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: normal;
+}
+/*.logo img {
+    width:40px;
+    height: 40px;
+    margin-right: 40px;
+}*/
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav ul {
+  /*    margin-left: 300px;*/
+  /*    margin-top: 90px;*/
+  margin-top: 1em;
+  font-size: 1.26em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+a {
+  text-decoration: underline;
+  color: black;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: gray;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {}
+/* Introduction */
+.introduction {
+  margin: 0 auto;
+  background-image: url(Cu9fiCbIaDR_slide_5webp.webp);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  min-height: 480px;
+}
+.introduction h1 {
+  margin: 0em;
+  font-size: 3.41em;
+  color: rgb(255, 255, 255);
+  align-self: center;
+  max-width: 1102px;
+  align-self: center;
+}
+/* About */
+.about {
+  background-color: white;
+  min-height: 402px;
+  text-align: center;
+}
+.about p {
+  padding: 5vh 15vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  margin-bottom: 1.1em;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Contact */
+.contact {
+  background-color: pink;
+  height: 185px;
+  text-align: center;
+  /*    here*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*    here */ padding: 5vh 5vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(159, 47, 83);
+  border-color: rgba(0, 0, 0, 0);
+  background-image: url("");
+  background-size: cover;
+}
+.contact a {
+  align-self: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0.2em;
+  background: transparent;
+  border: 1px solid;
+  font-size: 1.1em;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 5px;
+}
+/* Footer */
+footer {
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  /*    here*/
+  padding: 2vh 5vw;
+  justify-content: center;
+  align-items: center;
+  /*    here*/
+  padding: 2vh 5vw;
+  justify-content: center;
+  align-items: center;
+}
