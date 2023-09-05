@@ -193,7 +193,7 @@ footer {
     @media screen and (min-width: 1000px){
     .pad {
         display: flex;
-        flex-direction: row;
+        /*flex-direction: row;*/
     }
     .introduction {
       padding: 150px;
